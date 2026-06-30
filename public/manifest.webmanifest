@@ -1,9 +1,23 @@
 {
   "name": "StockGuard",
   "short_name": "StockGuard",
+  "description": "주식·담보·AI 투자 관리 PWA",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#07111f",
   "theme_color": "#07111f",
-  "icons": []
+  "categories": [
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
